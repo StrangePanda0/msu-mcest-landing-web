@@ -1,0 +1,25 @@
+:root{
+    --background-color:rgb(170,170,170);
+    --nav-bar: oklch(50% 0.7 0 / 50%);
+    --nav-bar-outline: oklch(50% 1 5);
+    --panel-color: #FFF;
+    --panel-light-shade: #FFF;
+    --panel-dark-shade: #000b;
+    
+    --text-color:#000000;
+    --text-dark-color: #FFF;
+    
+    --card-color:#777;
+    --card-light-shade: #FFFFFF66;
+    --card-dark-shade: #00000066;
+    --card-border-highlight-color: #FFF;
+    --card-border-shadow-color: #212;
+    
+    --card-content-color:#f4f4f4;
+    --card-content-light-shade: #FFF;
+    --card-content-dark-shade: #000;
+    
+    --interact-control-color: #FFF;
+    --interact-control-light-shade: #FFF;
+    --interact-control-dark-shade: #000;
+}
