@@ -1,0 +1,97 @@
+.carousel{
+    width: 90%;
+    padding: 8px 16px 8px 16px;
+    /*background-image: url('/PNG/bg_campus.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ddd;*/
+    border-radius: 8px;
+}
+
+.carousel-track{
+    display:flex;
+    align-items:center;
+    transition:transform 0.6s ease;
+}
+
+.slide{
+    min-width:250px;
+    height:375px;
+    margin:0 0px;
+    padding-top: 4px;
+    background-image: linear-gradient(180deg, #415A77, #0D1B2A, #E0E1DD, #E0E1DD, #E0E1DD);
+    color:white;
+    border-top: 1px solid var(--card-border-highlight-color);
+    border-left: 1px solid var(--card-border-highlight-color);
+    border-right: 1px solid var(--card-border-shadow-color);
+    border-bottom: 1px solid var(--card-border-shadow-color);
+    
+    /*box-shadow: -1px -1px 1px 1px var(--card-light-shade),
+                1px 1px 1px 1px var(--card-dark-shade);*/
+    gap: 4px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    border-radius:8px;
+
+    transition:all 0.2s ease-in;
+}
+
+/* side slides */
+
+.slide{
+    transform:scale(0.7);
+    opacity:0.4;
+    filter:blur(2px);
+}
+
+/* center slide */
+
+.slide.active{
+    transform:scale(1);
+    opacity:1;
+    filter:blur(0);
+}
+
+.slide-tittle {
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 8px;
+    
+}
+
+.slide-content {
+    border-radius: 7px;
+    background-image: linear-gradient(180deg, white, lightgrey);
+    padding: 8px;
+    width: 234px;
+    flex: 1;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.slide-content-text {
+    flex: 1;
+    width: 100%;
+    display: block;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.slide-button {
+    border-radius: 8px;
+    background-color: #1B263B;
+    color: #E0E1DD;
+    padding: 4px 8px 4px 8px;
+    width: 100px;
+}
