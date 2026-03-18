@@ -235,6 +235,7 @@ label {
     display: flex;
     align-items: center;
     margin-bottom: 4px;
+    padding-left: 32px;
 }
 
 .icon-img {
