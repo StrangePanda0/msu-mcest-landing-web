@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Grafika (https://www.grafika.cc/) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+	<g transform="matrix(1, 0, 0, 1, 256, 256)">
+		<path transform="matrix(21.33333396911621, 0, 0, 21.33333396911621, -256, -256)" d="M8,7 L22.5,7 C23.33,7 23.99,6.33 23.99,5.5 C23.99,4.67 23.33,4 22.5,4 L8,4 C7.17,4 6.51,4.67 6.51,5.5 C6.51,6.33 7.17,7 8,7 L8,7 Z" style="fill:#FFFFFF;" />
+		<path transform="matrix(21.33333396911621, 0, 0, 21.33333396911621, -256, -256)" d="M22.5,11 L8,11 C7.17,11 6.51,11.67 6.51,12.5 C6.51,13.33 7.17,14 8,14 L22.5,14 C23.33,14 23.99,13.33 23.99,12.5 C23.99,11.67 23.33,11 22.5,11 L22.5,11 Z" style="fill:#FFFFFF;" />
+		<path transform="matrix(21.33333396911621, 0, 0, 21.33333396911621, -256, -256)" d="M22.5,18 L8,18 C7.17,18 6.51,18.67 6.51,19.5 C6.51,20.33 7.17,21 8,21 L22.5,21 C23.33,21 23.99,20.33 23.99,19.5 C23.99,18.67 23.33,18 22.5,18 L22.5,18 Z" style="fill:#FFFFFF;" />
+		<ellipse transform="matrix(21.33333396911621, 0, 0, 21.33333396911621, -202.66665649414062, -138.66665649414062)" cx="0" cy="0" rx="2.5" ry="2.5" style="fill:#FFFFFF;" />
+		<ellipse transform="matrix(21.33333396911621, 0, 0, 21.33333396911621, -202.66665649414062, 0)" cx="0" cy="0" rx="2.5" ry="2.5" style="fill:#FFFFFF;" />
+		<ellipse transform="matrix(21.33333396911621, 0, 0, 21.33333396911621, -202.66665649414062, 149.33334350585938)" cx="0" cy="0" rx="2.5" ry="2.5" style="fill:#FFFFFF;" />
+	</g>
+</svg>
