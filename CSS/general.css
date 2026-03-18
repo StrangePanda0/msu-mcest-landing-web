@@ -120,11 +120,11 @@ label {
 }
 
 .grid-item {
-    padding: 8px;
+    padding: 16px;
     border-radius: 8px;
     background-color: oklch(70% 0.4 150);
-    width: 98px;
-    height: 98px;
+    width: 96px !important;
+    height: 96px !important;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -136,7 +136,7 @@ label {
 }
 
 .grid-item:hover {
-    width: 106px;
+    width: 144px;
 }
 
 .grid-item::before {
@@ -226,7 +226,6 @@ label {
 
 .footeer {
     background-color: #0D1B2A;
-    padding: 16px;
     width: 100%;
     color: #415A77;
     font-size: 0.75rem;
